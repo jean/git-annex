@@ -10,9 +10,9 @@ files they act on.
 Arbitrarily complicated expressions can be built using these options.
 For example:
 
-	--exclude '*.mp3' --and --not -( --in=usbdrive --or --in=archive -)
+	--exclude='*.mp3' --and --not -( --in=usbdrive --or --in=archive -)
 
-The above example prevents git-annex from working on mp3 files whose
+The above example excludes all mp3 files, except those whose
 file contents are present at either of two repositories.
 
 # OPTIONS
